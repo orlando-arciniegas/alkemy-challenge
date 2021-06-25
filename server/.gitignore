@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Enviroment variables
+.env
+
+# Rest client
+repos.http
+users.http
+
+# Production folder
+dist/
+
+# Consignas
+requirements/

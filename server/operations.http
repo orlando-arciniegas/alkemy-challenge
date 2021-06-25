@@ -1,0 +1,27 @@
+### Requests ###
+GET http://localhost:4000/api
+
+###
+POST http://localhost:4000/api
+Content-Type: application/json
+
+{   
+    "concept": "New notebook",
+    "amount": 150000,
+    "type": "Egress"
+}
+
+###
+GET http://localhost:4000/api/:id
+
+###
+DELETE http://localhost:4000/api/:id
+
+###
+PUT http://localhost:4000/api/:id
+Content-Type: application/json
+
+{
+    "concept": "New notebook HP",
+    "amount": 155000,
+}
