@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/index.js",
-    "test": "nodemon src/index.js --exec babel-node",
+    "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir dist"
   },
   "author": "",
@@ -26,6 +26,7 @@
     "@babel/core": "^7.14.3",
     "@babel/node": "^7.14.2",
     "@babel/plugin-transform-runtime": "^7.14.3",
-    "@babel/preset-env": "^7.14.2"
+    "@babel/preset-env": "^7.14.2",
+    "nodemon": "^2.0.7"
   }
 }
